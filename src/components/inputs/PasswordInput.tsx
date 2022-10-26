@@ -25,6 +25,8 @@ export const PasswordInput = ({
           type={visible ? "text" : "password"}
           name={name}
           placeholder="············"
+          pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$"
+          title="Minimum eight characters, at least one uppercase letter, one lowercase letter and one number"
           required
         />
         {visible ? (
