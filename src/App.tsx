@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.min.css";
 import { Home } from "./pages/home/Home";
 import { Login } from "./pages/login/Login";
 import { Register } from "./pages/register/Register";
-
+import "antd/dist/antd.css";
 interface User {
   email: string;
   _id: string;

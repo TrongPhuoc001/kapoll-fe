@@ -42,3 +42,7 @@ body {
 .error {
   color: red;
 }
+
+.w-full {
+  width: 100%;
+}
